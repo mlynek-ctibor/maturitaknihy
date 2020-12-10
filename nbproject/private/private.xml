@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>application/controllers/ICcontroller.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>28</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/projektskupina3/application/views/content/seznam_vydavatelu.php</file>
+            <file>file:/C:/xampp/htdocs/projektskupina3/application/controllers/Hlavni_controller.php</file>
+            <file>file:/C:/xampp/htdocs/projektskupina3/application/views/layout/hlavicka.php</file>
+            <file>file:/C:/xampp/htdocs/projektskupina3/application/views/content/seznam_filmu.php</file>
+            <file>file:/C:/xampp/htdocs/projektskupina3/application/views/content/seznam_roku.php</file>
+        </group>
+    </open-files>
+</project-private>
