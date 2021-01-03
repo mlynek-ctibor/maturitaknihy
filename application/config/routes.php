@@ -59,5 +59,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['menu'] = 'Cetba_controller/menu/';
 $route['stranka/(:num)'] = 'Cetba_controller/strankovani/$1';
 $route['prebal/(:num)'] = 'Cetba_controller/prebal/$1';
+$route['formular'] = 'Cetba_controller/formular';
 $route['default_controller'] = 'cetba_controller/menu';
 $route['404_override'] = '';

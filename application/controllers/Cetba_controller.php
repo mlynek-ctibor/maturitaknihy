@@ -43,5 +43,15 @@ class Cetba_controller extends CI_Controller
         $this->load->view('content/strana');
         $this->load->view('layout/pata');
     }
+    public function formular()
+    {
+
+        $data['polozky'] = $this->cetba_model->get_menu_kategorie();
+  
+
+        $this->load->view('layout/hlava', $data);
+        $this->load->view('content/formular');
+        $this->load->view('layout/pata');
+    }
 
 }

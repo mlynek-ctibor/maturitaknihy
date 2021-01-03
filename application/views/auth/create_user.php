@@ -1,4 +1,11 @@
-<h1><?php echo lang('create_user_heading');?></h1>
+
+<style>
+    body {
+     background-color: #FF5733;
+     text-align: center;
+    }
+    </style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"><h1><?php echo lang('create_user_heading');?></h1>
 <p><?php echo lang('create_user_subheading');?></p>
 
 <div id="infoMessage"><?php echo $message;?></div>

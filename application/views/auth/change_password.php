@@ -1,3 +1,9 @@
+<style>
+    body {
+     background-color: #FF5733;
+     text-align: center;
+    }
+    </style>
 <h1><?php echo lang('change_password_heading');?></h1>
 
 <div id="infoMessage"><?php echo $message;?></div>
