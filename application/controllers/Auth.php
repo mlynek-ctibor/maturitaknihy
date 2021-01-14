@@ -81,7 +81,7 @@ class Auth extends CI_Controller
 				//if the login is successful
 				//redirect them back to the home page
 				$this->session->set_flashdata('message', $this->ion_auth->messages());
-				redirect('formular', 'refresh');
+				redirect(base_url(), 'refresh');
 			}
 			else
 			{
@@ -125,7 +125,7 @@ class Auth extends CI_Controller
 		$this->ion_auth->logout();
 
 		// redirect them to the login page
-		redirect('auth/login', 'refresh');
+		redirect(base_url(), 'refresh');
 	}
 
 	/**
